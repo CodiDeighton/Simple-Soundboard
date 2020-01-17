@@ -1,4 +1,4 @@
-""" This script allows sounds to be mapped to buttons to make a sound board """
+""" This script allows sounds to be mapped to buttons to make a basic sound board """
 import tkinter
 import os
 import glob
@@ -73,7 +73,7 @@ FONT_SIZE = 24
 HEAD_SIZE = 32
 TXT_FONT = (FONT, FONT_SIZE)
 HEAD_FONT = (FONT, HEAD_SIZE)
-WINDOW_TITLE = "Simple Soundboard v0.1"
+WINDOW_TITLE = "Simple Soundboard v0.2"
 SOUNDS_LST = load_sounds()
 WINDOW = tkinter.Tk()
 WINDOW.title(WINDOW_TITLE)
